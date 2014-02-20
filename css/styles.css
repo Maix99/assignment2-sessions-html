@@ -1,0 +1,37 @@
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body{
+	width: 90%;
+	margin:0 auto;
+	border: 1px solid #666;
+	background-color:#ccc;
+}
+
+.track{
+	width:75%; /* 600/800 */
+	background-color: blue; 
+	padding:10px;
+	color:white;
+	font-size:1em;
+
+}
+
+h2{
+	font-size:1.2em;
+	letter-spacing: .2em;
+	line-height:.3em;
+}
+
+.session{
+	border:3px solid #fff;
+	padding:20px;
+}
+
+h3{
+	font-size:1em;
+	letter-spacing:.1em;
+}
