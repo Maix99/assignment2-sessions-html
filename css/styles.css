@@ -44,13 +44,14 @@ h3{
 }
 
 p{
+	padding:10%;
 	margin-bottom:1.5em;
 	text-align:left;
 
 }
 
 p.presenter{
-	text-align:center;
+	text-align:right;
 	color:red;
 	font-style:italic;
 	font-weight:10px;
